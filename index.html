@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto 1</title>
+    <link href="bootstrap-5.0.2-examples/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+   <style>
+        .header {
+            background-image: url('img/head.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 950px;
+        }
+    </style>
+<body>
+    <header>
+    </header>
+    <main class="container-fluid">
+        <div class="header row p-5">
+            <div class="col-6">
+                <h2 class="display text-light "> <span><img src="img/fav.png" alt="" width="40" height="40"/></span> 
+                    HANGOVER</h2>
+            </div>
+            <div class="menu col-6">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top transparent-nav">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-white" href="#"></a>
+                        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#aboutMe">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#portafolio">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#contactos">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="home" class="col-12 display-1 text-light p-5 fw-bolder text-center"> HANGOVER</div>
+            <div class="col-12 text-light text-center">
+                <p class="p-5 fs-4"> Web Design • Photography • Product Design </p>
+            </div>
+            <div class="col-12 p-5 text-center">
+                <a href="#" class="btn btn-primary p-3 fs-4"> LEARN MORE</a>
+            </div>
+        </div>
+    </main>
+
+    <div id="aboutMe" class="bg-success p-5 text-center">
+        <h2 class="display-4 text-white">About Me</h2>
+        <hr class="w-25 m-auto">
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="./img/bartender.png" alt="Bartender" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate reiciendis
+                    perspiciatis recusandae! Magni vel ratione excepturi beatae voluptate
+                    perspiciatis recusandae! Magni vel ratione excepturi beatae voluptate
+                    perspiciatis recusandae! Magni vel ratione excepturi beatae voluptate
+                    perspiciatis recusandae! Magni vel ratione excepturi beatae voluptate
+                    illum sapiente nisi id, nihil recusandae quis accusantium amet, iusto quo tempora.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="portafolio" class="bg-dark p-5 text-center">
+        <h2 class="display-4 text-white">Portfolio</h2>
+        <hr class="w-25 m-auto">
+        <div class="row mt-4">
+
+            <ul class="nav nav-pills mb-3 justify-content-center flex-md-row flex-column" id="pills-tab" role="tablist"  text-white >
+                <li class="nav-item pe-5" role="presentation">
+                    <button class="nav-link active pe-5 ps-5 fs-5 bg-primary bg-gradient text-white "
+                        id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">
+                        All
+                    </button>
+                </li>
+                <li class="nav-item pe-5" role="presentation">
+                    <button class="nav-link pe-5 ps-5 fs-5  bg-primary bg-gradient"
+                        id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web"
+                        type="button" role="tab" aria-controls="pills-web" aria-selected="false">
+                        Web
+                    </button>
+                </li>
+                <li class="nav-item pe-5" role="presentation">
+                    <button class="nav-link pe-5 ps-5 fs-5  bg-primary bg-gradient"
+                        id="pills-photography-tab" data-bs-toggle="pill" data-bs-target="#pills-photography"
+                        type="button" role="tab" aria-controls="pills-photography" aria-selected="false">
+                        Photography
+                    </button>
+                </li>
+                <li class="nav-item pe-5" role="presentation">
+                    <button class="nav-link pe-5 ps-5 fs-5  bg-primary bg-gradient"
+                        id="pills-productdesign-tab" data-bs-toggle="pill" data-bs-target="#pills-productdesign"
+                        type="button" role="tab" aria-controls="pills-productdesign" aria-selected="false">
+                        Product Design
+                    </button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+
+                <div class="tab-pane fade show active p-3 mb-3" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                    <div class="row g-3">
+                        <div class="col-sm-6 col-md-3 col-lg-3 p-3 mb-3">
+                            <img src="./img/01-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 p-3 mb-3">
+                            <img src="./img/02-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/03-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/04-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 p-3 mb-3">
+                            <img src="./img/05-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 p-3 mb-3">
+                            <img src="./img/06-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 p-3 mb-3">
+                            <img src="./img/07-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 p-3 mb-3">
+                            <img src="./img/08-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 p-3 mb-3">
+                            <img src="./img/09-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 p-3 mb-3">
+                            <img src="./img/10-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 p-3 mb-3">
+                            <img src="./img/11-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 p-3 mb-3">
+                            <img src="./img/12-large.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade p-3 mb-3" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+                    <div class="row g-3">
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/01-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/02-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/07-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/10-large.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade p-3 mb-3" id="pills-photography" role="tabpanel" aria-labelledby="pills-photography-tab">
+                    <div class="row g-3">
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/03-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/04-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/08-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/11-large.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade p-3 mb-3" id="pills-productdesign" role="tabpanel" aria-labelledby="pills-productdesign-tab">
+                    <div class="row g-3">
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/05-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/06-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/09-large.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <img src="./img/12-large.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contactos" class="bg-primary p-5 text-center">
+        <h2 class="display-4 text-white">Contactos</h2>
+        <hr class="w-25 m-auto">
+        <div class="row mt-4">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label text-white">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-white">Email address</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label text-white">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.0.2-examples/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
